@@ -97,9 +97,11 @@ img[src$="svg"] {
 
 /************ add your CSS here *****************/
 
-* {
+body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
+  color: var(--color-font);
+
 }
 
 main {
@@ -192,8 +194,9 @@ article {
 }
 
 footer {
-  margin-top: 7rem;
   padding: 2rem;
+  background-color: var(--color-font);
+  color: var(--color-background);
 }
 
 footer h2 {
