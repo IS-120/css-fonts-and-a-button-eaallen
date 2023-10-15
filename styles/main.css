@@ -104,7 +104,7 @@ body {
 
 }
 
-main {
+article {
   margin: 0 auto;
   padding: 0 1rem;
   max-width: 80ch;
@@ -161,7 +161,7 @@ ol {
   margin: 1rem auto;
 }
 
-.button {
+a.button {
   background-color: var(--color-info);
   color: var(--color-background);
   text-decoration: none;
@@ -177,11 +177,11 @@ ol {
   text-transform: uppercase;
 }
 
-.button:hover {
-  color: var(--color-info);
+a.button:hover {
   background-color: var(--color-background);
   border: 2px solid var(--color-info);
   cursor: pointer;
+  color: var(--color-danger);
 }
 
 aside {
